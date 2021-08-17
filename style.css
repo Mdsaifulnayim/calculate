@@ -1,0 +1,52 @@
+*{
+	marging: 0;
+	padding: 0;
+}
+body{
+	background-color: #7D0541;
+
+}
+.ch{
+	text-align: center;
+	color: #B0BF1A;
+
+}
+.card{
+	margin:0 auto;
+	max-width:350PX;
+	text-align:center;
+	margin-top:10px;
+	box-shadow:0 4px 8px 0 rgba(0, 0, 0,0.2);
+	transition:0.3s;
+	font-size:0;
+}
+.card:hover{
+	box-shadow: 0 20px 40px 0 rgba(0, 0, 0,0.2);
+}
+.cl-head #result{
+	width:335px;
+	height:100px;
+	color: white;
+	font-size: 32px;
+	font-weight: bold;
+	text-align: right;
+	padding: 0 5px;
+	letter-spacing: 2px;
+	background-color: #B0BF1A;
+}
+.btn{
+width: 87px;
+height: 70px;
+font-weight:bold;
+font-size: 16px;
+background-color:#151B54;
+color: white;
+transition: 0.2s;
+}
+.btn-style{
+	background-color:#7F38EC;
+
+}
+.btn:hover{
+	background-color:#7D0541;
+}
